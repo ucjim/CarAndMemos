@@ -22,7 +22,9 @@ const App = () => {
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={MainTabScreen} />
-        {/*<Drawer.Screen name="Details" component={DetailsStackScreen} />*/}
+        {/*<Drawer.Screen name="SuppoetScreen" component={SupportScreen} />
+        <Drawer.Screen name="SettingsScreen" component={SettingsScreen} />
+  <Drawer.Screen name="SettingsScreen" component={BookmarkScreen} /> */}
       </Drawer.Navigator>
     </NavigationContainer>
   );
